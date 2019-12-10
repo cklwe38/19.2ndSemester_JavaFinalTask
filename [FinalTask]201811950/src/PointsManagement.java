@@ -6,9 +6,9 @@ public class PointsManagement {
 	HashMap<String, Integer> cp = new HashMap<String, Integer>();
 	Scanner scanner = new Scanner(System.in);
 	
-	String name; Integer point;
 	System.out.print("이름과 포인트 입력>>");
-	name=scanner.next();
+	String name=scanner.next();
+	Integer point;
 	
 	while (!(name.equals("exit"))){
 		point=scanner.nextInt();
@@ -25,7 +25,7 @@ public class PointsManagement {
 		name=scanner.next();
 	}	
 	
-	System.out.println("프로그램을 종료합니다....");
+	System.out.println("프로그램을 종료합니다.");
 
 	
 	}
